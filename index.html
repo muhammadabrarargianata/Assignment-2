@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>WEB | PROFIL</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav> 
+        <ul>
+            <li><a href="#HOME">HOME</a></li>
+            <li><a href="#PRODUCT">PRODUCT</a></li>
+            <li><a href="#GALLERY">GALLERY</a></li>
+            <li><a href="#BLOG">BLOG</a></li>
+            <li><a href="#INVENTORY">INVENTORY</a></li>
+        </ul>
+        </nav>
+    <!-- box container Portofolio -->
+    <div class="container">
+      <div class="box1">
+        <img id="imageTarget" src="profil.jpg"foto profil" width="150" height="150" class="foto">
+        <ul>
+          <li><h1 id="nameTarget">Muhammad Abrar Argianata</h1></li>
+          <li><p id="jobTarget" class="job">Front End Developer</p></li>
+          <button class="btn1" id="editButton" type="button">Edit</button>
+          <button class="btn2" type="button">Resume</button>
+        </ul>
+        <ul class="box1_1">
+          <li><p>Availability</p></li>
+          <li><p>Usia</p></li>
+          <li><p>Lokasi</p></li>
+          <li><p>Pengalaman</p></li>
+          <li><p>Email</p></li>
+        </ul>
+        <ul class="box1_2">
+          <li><p id="availTarget">Full Time</p></li>
+          <li><p id="ageTarget">20</p></li>
+          <li><p id="locTarget">Bekasi,Indonesia</p></li>
+          <li><p id="yearTarget">2</p></li>
+          <li><p id="emailTarget">m.abrarargianata@gmail.com</p></li>
+        </ul>
+      </div>
+    </div>
+      
+
+      <!-- form isi Portofolio -->
+    
+    <form id="myForm" class="container boxForm hide-content">
+        <label for="nama">Nama</label></br>
+        <input id="formName" type="text" name="nama" placeholder="Masukkan nama anda" autofocus>
+        <br>
+        <label for="role">Role</label></br>
+        <input id="formRole" type="text" name="role" placeholder="Masukkan role anda">
+        <br>
+        <label for="avail">Availability</label></br>
+        <input id="formAvail" type="text" name="avail" placeholder="Masukkan availability anda">
+        <br>
+        <label for="age">Usia</label></br>
+        <input id="formAge" type="text" name="age" placeholder="Masukkan usia anda">
+        <br>
+        <label for="loc">Lokasi</label></br>
+        <input id="formLoc" type="text" name="loc" placeholder="Masukkan lokasi anda">
+        <br>
+        <label for="year">Year Experience</label></br>
+        <input id="formYear" type="text" name="year" placeholder="Masukkan pengalaman anda">
+        <br>
+        <label for="mail">Email</label></br>
+        <input id="formMail" type="text" name="mail" placeholder="Masukkan email anda">
+        <label for="formImage">Foto</label>
+        <input type="file" id="formImage" name="userpicture" accept="image/png, image/jpeg" >
+        <button class="btn-3" id="submitBtn">Submit</button>
+    </form>
+
+
+
+    <!-- panggil javascript file external -->
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+/* reset behavior css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd1d1;
+}
+
+
+/* Navbar */
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    padding: 16px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 600;
+    padding: 5px 0;
+    transition: all;
+    transition-duration: 200ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid black;
+    color: lightblue;
+}
+  
+
+  /* box container  */
+  .container{
+    margin: 2em 3em;
+    border: 1px solid grey;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #888888;
+    
+  }
+  
+  .box1{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    height: 12rem;
+  }
+  
+  .foto {
+    object-fit: cover;
+    object-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.foto:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+}
+  
+  .box1 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin: 0.3rem 2rem;
+  }
+  .box1 .job{
+    color: #888888;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  .box1 button{
+    margin: 1rem 2rem;
+    padding: 7px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  .box1 .btn1{  
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+  }
+  .btn1:hover{
+    background-color: rgb(77, 197, 253);
+    color: rgb(248, 248, 253);
+  }
+  .box1 .btn2{
+    color: #24e67b;
+    background-color: white;
+    border: 1.5px solid #24e67b;
+    margin-left: -1rem;
+    border-radius: 5px;
+  }
+  
+.btn2:hover{
+    background-color: rgb(96, 243, 59);
+    color: white;
+}
+
+  .box1_1 {
+    margin-left: 10rem;
+    border-left: 1px solid rgba(141, 136, 136, 0.353);
+  }
+  .box1_1 li {
+    padding: 5px 1rem;
+    font-weight: bold;
+  }
+  
+  .box1_2 li{
+    padding: 5px 0;
+    color: #0c0b0b;
+  }
+  
+  
+  /* =========form======== */
+  .boxForm{
+    background-color: white;
+    padding: 2rem 1.5rem;
+  }
+  
+  .hide-content {
+    display: none;
+  }
+  
+  form label{
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  form input{
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 1px 0px 2px #888888;
+    border: 2px solid lightgrey;
+    height: 2em;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  
+  .btn-3{
+    margin-top: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 2px #888888;
+    height: 30px;
+    width: 100%;
+    background-color: #119415;
+    border: none;
+    text-transform: uppercase;
+    color: white;  
+  }
+  
+  
+  
+  /* media query */
+  
+  /* laptop */
+  @media (max-width: 1150px) {
+    html{
+        font-size: 75%;
+    }
+  
+  }
+  
+  @media (max-width: 992px) {
+    html{
+        font-size: 70%;
+    }
+    .foto{
+      height: 120px;
+      width: 120px;
+    }
+  
+  }
+  
+  /* tablet */
+  @media (max-width: 768px) {
+    html{  
+        font-size: 65%;
+    }
+  
+    .box1_1{
+      margin-left: 5rem;
+    }
+    .foto{
+      height: 100px;
+      width: 100px;
+    }
+  
+    .boxForm input{
+      font-size: 0.9rem;
+    }
+  }
+  
+  
+  /* mobile */
+  @media (max-width: 576px) {
+    html{
+        font-size: 50%;
+    }
+  
+    .foto{
+      height: 80px;
+      width: 80px;
+    }
+   
+    .box1_1{
+      margin-left: 0.5rem;
+    }
+  
+    .boxForm input{
+      font-size: 0.8rem;
+    }
+  
+  }
