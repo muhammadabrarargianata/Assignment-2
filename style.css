@@ -54,7 +54,7 @@ nav ul li a:hover {
     
   }
   
-  .box1{
+  .profil1{
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
@@ -82,23 +82,23 @@ nav ul li a:hover {
     overflow: hidden;
 }
   
-  .box1 ul li{
+  .profil1 ul li{
     text-decoration: none;
     list-style: none;
     margin: 0.3rem 2rem;
   }
-  .box1 .job{
+  .profil1 .job{
     color: #888888;
     font-size: 1rem;
     margin-top: 5px;
   }
-  .box1 button{
+  .profil1 button{
     margin: 1rem 2rem;
     padding: 7px 20px;
     font-size: 1.2rem;
     border-radius: 5px;
   }
-  .box1 .btn1{  
+  .profil1 .btn1{  
     color: white;
     background-color: blue;
     border: 1px solid blue;
@@ -108,7 +108,7 @@ nav ul li a:hover {
     background-color: rgb(77, 197, 253);
     color: rgb(248, 248, 253);
   }
-  .box1 .btn2{
+  .profil1 .btn2{
     color: #24e67b;
     background-color: white;
     border: 1.5px solid #24e67b;
@@ -121,16 +121,16 @@ nav ul li a:hover {
     color: white;
 }
 
-  .box1_1 {
+  .profil2 {
     margin-left: 10rem;
     border-left: 1px solid rgba(141, 136, 136, 0.353);
   }
-  .box1_1 li {
+  .profil2 li {
     padding: 5px 1rem;
     font-weight: bold;
   }
   
-  .box1_2 li{
+  .profil3 li{
     padding: 5px 0;
     color: #0c0b0b;
   }
